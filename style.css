@@ -42,7 +42,7 @@ header {
 
 .menu-items li {
   list-style: none;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .menu-items a {
@@ -615,6 +615,9 @@ header {
   .skills {
     width: 100%;
   }
+  .navbar-brand {
+    display: none;
+  }
 
   .skills-bar .bar .progress-line {
     width: 100%;
@@ -718,7 +721,9 @@ header {
     width: 290px;
     margin-bottom: 0.5rem;
   }
-
+  .navbar-brand {
+    display: none;
+  }
   .work-arrow-2 a {
     font-size: 1.3rem;
     text-decoration: none;
@@ -736,7 +741,9 @@ header {
   html {
     font-size: 70%;
   }
-
+  .navbar-brand {
+    display: none;
+  }
   .about-content .left-content {
     flex-basis: 100%;
     text-align: center;
